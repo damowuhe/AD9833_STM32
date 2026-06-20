@@ -142,7 +142,7 @@ void square_wave_out(void);    // FREQ0 → 方波
 
 ## 作者
 
-- **朱一凡（damowuhe）**
+- **damowuhe**
 - 邮箱：odin1415@outlook.com
 
 ## 许可证
