@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug (stm32)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/Debug/AD9833.elf",
+            "device": "STM32F103C8T6",
+            // "svdFile": "${workspaceFolder}/AT32F421xx_v2.svd",
+            "runToEntryPoint": "main",
+            "armToolchainPath": "E:/STM32_Projects/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin",
+            "gdbPath": "E:/STM32_Projects/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/arm-none-eabi-gdb.exe",
+            "configFiles": [
+                "openocd.cfg"
+            ],
+            
+        }
+    ]
+}
